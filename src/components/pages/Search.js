@@ -1,8 +1,11 @@
 import React from 'react'
+import SearchDataset from '../SearchDataset'
 
 function Search() {
   return (
-    <div>Search</div>
+    <>
+    <SearchDataset/>
+    </>
   )
 }
 

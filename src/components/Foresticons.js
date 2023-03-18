@@ -3,6 +3,8 @@ import "./Foresticons.css";
 import { Button1 } from "./Button1";
 import { ButtonModel } from "./ButtonModel";
 import { ButtonGrowth } from "./ButtonGrowth";
+import { ButtonMap } from "./ButtonMap";
+import { ButtonCollateral } from "./ButtonCollateral";
 // import { setdata } from "./data/data";
 
 function Foresticons() {
@@ -67,28 +69,28 @@ function Foresticons() {
                 <img src="images/map.png"></img>
               </div>
               {/* <button className="booking-btn">WARANGAL</button> */}
-              <Button1
+              <ButtonMap
                 className="month-btn"
                 buttonStyle="btn1--primary"
                 buttonSize="btn1--large"
                 path = 'WARANGAL'
               >
                 MAP FOREST COORDINATES
-              </Button1>
+              </ButtonMap>
             </div>
             <div className="service-card">
               <div className="image-container2">
                 <img src="images/collateral.png"></img>
               </div>
               {/* <button className="booking-btn">NIZAMABAD</button> */}
-              <Button1
+              <ButtonCollateral
                 className="month-btn"
                 buttonStyle="btn1--primary"
                 buttonSize="btn1--large"
                 path = 'NIZAMABAD'
               >
                 COLLATERAL IMPACTS
-              </Button1>
+              </ButtonCollateral>
             </div>
           </div>
         </div>
